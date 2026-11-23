@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Raw data (too large for git)
+data/raw/
+
+# Temporary DuckDB files
+data/tmp_duckdb/
+
+# Python cache
+__pycache__/
+
+# AI memory entries (personal, not project)
+.ai_memory/
+
+# User-specific overrides
+*.env
+
+# Note: Include these in git
+data/processed/crowding.duckdb
+outputs/charts/*.png
+TECHNICAL_NOTE.md
